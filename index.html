@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify-Player: Music for everyone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css" />
+</head>
+
+<body>
+  <div class="container flex bg-black">
+    <div class="left">
+      <div class="close">
+        <img class="invert" src="close.svg" alt="Close-Icon">
+      </div>
+      <div class="home bg-grey rounded m-1 p-1">
+        <div class="logo">
+          <img class="invert" src="logo.svg" alt="Logo" />
+        </div>
+        <ul>
+          <li><img class="invert" src="home.svg" alt="Home" />Home</li>
+          <li><img class="invert" src="search.svg" alt="Search" />Search</li>
+        </ul>
+      </div>
+
+      <div class="library bg-grey rounded m-1 p-1">
+        <div class="heading">
+          <img class="invert" src="playlist.svg" alt="Playlist SVG" />
+          <h2>Your Library</h2>
+          <!-- <div class="plus invert">
+            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 kPpCsU">
+              <path
+                d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z">
+              </path>
+            </svg>
+          </div> -->
+
+        </div>
+
+        <div class="songslist">
+          <ul>
+            <!-- <li>
+              <img class="invert" src="music.svg" alt="Music-Symbol">
+              <div class="info">
+                <div>Song Name</div>
+                <div>Song Artist</div>
+              </div>
+              <div class="playnow">
+                <span class="practice">Play Now</span>
+              </div>
+              <img class="invert" src="play.svg" alt="Play-Symbol">
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="footer">
+          <div>
+            <a href="https://www.spotify.com/jp/legal/" id=""><span>Legal</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/privacy/" id=""><span>Privacy Center</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/privacy-policy/" id=""><span>Privacy Policy</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/cookies-policy/" id=""><span>Cookies</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3" id=""><span>About Ads</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/accessibility/" id=""><span>Accessibility</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right bg-grey rounded">
+      <div class="header">
+        <div class="nav">
+          <div class="bars">
+            <img class="invert" src="bars.svg" alt="bars">
+          </div>
+          <div class="svg">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff  " stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        </div>
+        <div class="buttons">
+          <button class="one">Sign Up</button>
+          <button>Login</button>
+        </div>
+      </div>
+
+      <div class="spotifyPlaylist">
+        <h1>Spotify Playlists</h1>
+          <div class="cardContainer">
+            <div class="card">
+              <div class="circle-button">
+                <div class="pause-sign">
+                  <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                    class="Svg-sc-ytk21e-0 iYxpxA">
+                    <path
+                      d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <img src="https://i.scdn.co/image/ab67706f00000002403f8ff596413f3d280026df" alt="Photo">
+              <h2>New Year's Eve 2023</h2>
+              <p>Ring in 2024 with your favorite party tracks!</p>
+            </div>
+
+            <div class="op">
+            <div class="cardContainer">
+              <div class="card">
+                <div class="circle-button">
+                  <div class="pause-sign">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                      class="Svg-sc-ytk21e-0 iYxpxA">
+                      <path
+                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+                <img src="https://i.scdn.co/image/ab67706f00000002f93dacf1ba13fab3a852c5e7" alt="Photo">
+                <h2>Bollywood Central</h2>
+                <p>Bollywood Central, jab baje toh seedha dil ke centre mein lage</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="op">
+            <div class="cardContainer">
+              <div class="card">
+                <div class="circle-button">
+                  <div class="pause-sign">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                      class="Svg-sc-ytk21e-0 iYxpxA">
+                      <path
+                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+                <img src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d" alt="Photo">
+                <h2>Chillout Lounge</h2>
+                <p>Just lean back and enjoy relaxed beats.</p>
+              </div>
+            </div>
+          </div>
+
+            <!-- <div class="cardContainer">
+              <div class="card">
+                <div class="circle-button">
+                  <div class="pause-sign">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                      class="Svg-sc-ytk21e-0 iYxpxA">
+                      <path
+                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+                <img src="https://i.scdn.co/image/ab67706f000000022c083c0dcc54aba09c5264c3" alt="Photo">
+                <h2>Latest Love Tunes</h2>
+                <p>atest love tracks to tug at your heart strings</p>
+              </div>
+            </div> -->
+
+            <!-- <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000024c4ae64d4ed1fa93a1b886ca" alt="Photo">
+                <h2>Today's Top Hits</h2>
+                <p>Taylor Swift is on top of the Hottest 50 !</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="Photo">
+                <h2>Dinner Jazz</h2>
+                <p>The gentle sound of some of the greatest voices and instrumentalists in Jazz.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="Photo">
+                <h2>Lofi beats</h2>
+                <p>Chill beats, lofi vibes, new tracks every week...</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000022e8146e19aaf63cba9ecfc21" alt="Photo">
+                <h2>Bollywood Dance Music</h2>
+                <p>Party-ready, biggest Bollywood dance tracks of last 10 years. </p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000022468362accf60bcfadaf4916" alt="Photo">
+                <h2>House Party Hits</h2>
+                <p>Turn down the lights, these are the biggest house bangers.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002e466a80b9f7ba71077ad3a71" alt="Photo">
+                <h2>New in Dance</h2>
+                <p>Latest floor fillers to kickstart your party.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002118ecaf6c5151716f13fd0b1" alt="Photo">
+                <h2>Hot Hits Punjabi</h2>
+                <p>Catch the hottest Punjabi tracks</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000026e3589386320d640bed10cfd" alt="Photo">
+                <h2>Decoded: Business & Tech</h2>
+                <p>Deep dive into the world of business and technology.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67656300005f1f07468cb5cb7cb67808c0a1e5" alt="Photo">
+                <h2>First Principles</h2>
+                <p>The Ken</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002ab79e9cccfbc31fc14063f55" alt="Photo">
+                <h2>Timeless Love Songs</h2>
+                <p>The ultimate romantic playlist.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002238ef58581cc536174a680e8" alt="Photo">
+                <h2>Happy Vibes</h2>
+                <p>Bright, sunny, catchy tunes put a smile on your face.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002b0e1f1b28ecbe6c19027bb3a" alt="Photo">
+                <h2>Bollywood and Chill</h2>
+                <p>Sit back, and chill with Bollywood's easygoing hits.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000029e05d9a385a4be11793f232d" alt="Photo">
+                <h2>Pop Party</h2>
+                <p>A perfect little pop party.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002d6d48b11fd3b11da654c3519" alt="Photo">
+                <h2>Deep Focus</h2>
+                <p>Keep calm and focus with ambient and post-rock music.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000021c09d0e729f9c9ad8bff6739" alt="Photo">
+                <h2>Your Favorite Coffehouse</h2>
+                <p>Curl up in your favorite spot with some sweet, mellow tunes...</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000022d95197d3a28a24aa86eb64c" alt="Photo">
+                <h2>Chill Tracks</h2>
+                <p>Softer kinda dance.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002c771198277ecd33007dd2de4" alt="Photo">
+                <h2>Beast Mode</h2>
+                <p>Get your beast mode on!</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" alt="Photo">
+                <h2>Sleep</h2>
+                <p>Gentle Ambient piano to help you fall asleep.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002468762ec9fd93a2dc3b167ee" alt="Photo">
+                <h2>Stress Relief</h2>
+                <p>Calm your mind from anxiety with gentle piano and ambient music.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002d66f329d43dc8d4f34eb8b42" alt="Photo">
+                <h2>Winter of Love</h2>
+                <p>Get cosy and snuggle with these Hindi romantic tunes.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f000000029ea40053fb491932319307f2" alt="Photo">
+                <h2>00's Love Hits</h2>
+                <p>Fall in love with 00's Bollywood like never before!</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002078ab114c8a966e7dd0434ee" alt="Photo">
+                <h2>All Out 00's Hindi</h2>
+                <p>Bollywood songs that ruled hearts in the Y2K decade.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f0000000240bb7b304baca600935f2f23" alt="Photo">
+                <h2>Old is Gold</h2>
+                <p>Soulful Hindi songs for your nostalgic journey.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002e98ca2e42bee6b901daaa424" alt="Photo">
+                <h2>Bollywood Acoustic</h2>
+                <p>Best acoustic melodies from Bollywood.</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f0000000257f26a64464afe42c043ea19" alt="Photo">
+                <h2>Indie Instrumental</h2>
+                <p>Unwind to the real beauty of Instrumentals!</p>
+              </div>
+            </div>
+
+            <div class="cardContainer">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67706f00000002cac7686555c2bc3bf267d555" alt="Photo">
+                <h2>Trending Valentine's Hits</h2>
+                <p>India's Ultimate Love Playlist.</p>
+              </div>
+            </div> -->
+
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle">
+
+              </div>
+            </div>
+            <div class="abovebar">
+
+              <div class="songinfo">
+
+              </div>
+              <div class="songbutttons">
+                <img id="previous" src="previous.svg" alt="Previous">
+                <img id="play" src="play-02.svg" alt="Play">
+                <img id="next" src="next.svg" alt="Next">
+              </div>
+
+              <div class="timevol">
+                <div class="songtime">
+                </div>
+                <div class="volume">
+                  <img width="20" src="volume.svg" alt="Volume-Button">
+                  <div class="range">
+                    <input type="range" name="volume" id="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
